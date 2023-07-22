@@ -4,3 +4,22 @@
     --background-grey: #e2e8f0;
     --grid-tab-yellow: #f0b42a;
 }
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    /* added a temporary border to visualize container */
+    border: 5px solid red;
+    
+    display: grid;
+    grid-template-columns: 25% 30% 30% 15%;
+    height: 100vh;
+}
+
+.navbar {
+    background: var(--navbar-blue);
+}
