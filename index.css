@@ -9,6 +9,7 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    height: 100%;
 }
 
 .main-container {
@@ -16,10 +17,29 @@
     border: 5px solid red;
     
     display: grid;
-    grid-template-columns: 25% 30% 30% 15%;
-    height: 100vh;
+    grid-template-areas: 
+    "navbar header header header"
+    "navbar main main main"
+    "navbar main main main"
+    "navbar main main main"
+    "navbar main main main";
+    /* grid-template-columns: 1fr 3fr; */
+    /* height: 100vh; */
 }
 
 .navbar {
+    grid-area: navbar;
+    
     background: var(--navbar-blue);
+}
+
+.header {
+    grid-area: header;
+    background-color: var(--white);
+}
+
+.main-content {
+    grid-area: main;
+
+    background-color: var(--background-grey);
 }
