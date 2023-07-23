@@ -30,13 +30,14 @@
     
     background: var(--navbar-blue);
     display: grid;
-    grid-template-rows: 2fr repeat(10, 1fr);
+    grid-template-rows: 2fr repeat(18, 1fr);
 }
 
 .navbar button {
     border: 5px solid blue;
     
     background: none;
+    color: white;
 }
 
 .header {
