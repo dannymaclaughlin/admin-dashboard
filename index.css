@@ -48,6 +48,9 @@
 .header {
     grid-area: header;
     background-color: var(--white);
+
+    display: grid;
+    grid-template-rows: 1fr 2fr;
 }
 
 .main-content {
