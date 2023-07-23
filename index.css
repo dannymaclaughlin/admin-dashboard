@@ -48,6 +48,7 @@
 .header {
     grid-area: header;
     background-color: var(--white);
+    justify-content: center;
 }
 
 /* .header-top-row,
@@ -56,10 +57,11 @@
 } */
 
 .header-children {
+    border: 3px solid pink;
     grid-template-rows: 1fr 2fr;
     display: grid;
     align-items: center;
-    justify-items: space-inbetween;
+    justify-content: center;
 }
 
 .header-top-row {
@@ -69,12 +71,34 @@
     height: fit-content;
 }
 
+.search-icon {
+    background-image: url(/icons/magnify.svg);
+    background-repeat: no-repeat;
+}
+
+.header-top-row [type="text"] {
+    background-color: var(--background-grey);
+    height: 3em;
+    border-radius: 20px;
+}
+
 .header-bottom-row {
     /* border: 3px solid pink; */
     display: grid;
     grid-template-columns: 1fr 4.5fr 1fr 1fr 1fr;
-    height: 50%;
+    height: 73%;
     align-items: end;
+}
+
+.user-icon-large {
+    background-image: url(/icons/burger-profile-pic-100px.png);
+    background-size: 90px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 90%;
+    box-sizing: border-box;
+    /* border: 2px solid pink; */
+    background-position: center;
 }
 
 .header-bottom-row button {
