@@ -51,6 +51,12 @@
 
     display: grid;
     grid-template-rows: 1fr 2fr;
+    box-sizing: border-box;
+}
+
+/* applied a temporary green border to .header's children to help visualize elements*/
+.header > * {
+    border: 1px solid green;
 }
 
 .main-content {
