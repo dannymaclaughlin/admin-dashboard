@@ -33,6 +33,7 @@
     background: var(--navbar-blue);
     display: grid;
     grid-template-rows: 2fr repeat(18, 1fr);
+    justify-items: center;
 }
 
 .navbar button {
@@ -41,7 +42,6 @@
     background: none;
     color: white;
     font-size: 2em;
-    width: fit-content;
 }
 
 .header {
