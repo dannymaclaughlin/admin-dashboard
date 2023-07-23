@@ -18,17 +18,25 @@
     
     display: grid;
     grid-template-areas: 
-    "navbar header header header"
-    "navbar main main main"
-    "navbar main main main"
-    "navbar main main main"
-    "navbar main main main";
+    "navbar header header header header"
+    "navbar main main main main"
+    "navbar main main main main"
+    "navbar main main main main"
+    "navbar main main main main";
 }
 
 .navbar {
     grid-area: navbar;
     
     background: var(--navbar-blue);
+    display: grid;
+    grid-template-rows: 2fr repeat(10, 1fr);
+}
+
+.navbar button {
+    border: 5px solid blue;
+    
+    background: none;
 }
 
 .header {
