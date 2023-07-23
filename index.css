@@ -17,12 +17,14 @@
     border: 5px solid red;
     
     display: grid;
+    grid-template-columns: 20% 80%;
     grid-template-areas: 
     "navbar header header header header"
     "navbar main main main main"
     "navbar main main main main"
     "navbar main main main main"
     "navbar main main main main";
+
 }
 
 .navbar {
@@ -38,6 +40,8 @@
     
     background: none;
     color: white;
+    font-size: 2em;
+    width: fit-content;
 }
 
 .header {
