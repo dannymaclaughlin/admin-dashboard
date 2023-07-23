@@ -1,8 +1,8 @@
 :root {
-    --navbar-blue: #1892d4;
+    --blue: #1892d4;
     --white: #FFFFFF;
-    --background-grey: #e2e8f0;
-    --grid-tab-yellow: #f0b42a;
+    --grey: #e2e8f0;
+    --yellow: #f0b42a;
 }
 
 * {
@@ -31,7 +31,7 @@
 .navbar {
     grid-area: navbar;
     
-    background: var(--navbar-blue);
+    background: var(--blue);
     display: grid;
     grid-template-rows: 2fr repeat(18, 1fr);
     justify-items: start;
@@ -51,10 +51,11 @@
     justify-content: center;
 }
 
-/* .header-top-row,
+/* TEMPORARY CODE TO TOGGLE BOARDER ON HEADER'S CHILDREN */
+.header-top-row,
 .header-bottom-row > * {
     border: 2px solid green;
-} */
+}
 
 .header-children {
     border: 3px solid pink;
@@ -66,24 +67,48 @@
 
 .header-top-row {
     display: grid;
-    grid-template-columns: 1fr 3fr .5fr .5fr 2fr;
+    grid-template-columns: 4fr 1fr 1fr 3fr;
 
     height: fit-content;
+}
+
+.header-top-row > * {
+    border: 2px solid green;
+}
+
+#search-group {
+    display: grid;
+    grid-template-columns: 12% 88%;
+    border: 3px solid blue;
 }
 
 .search-icon {
     background-image: url(/icons/magnify.svg);
     background-repeat: no-repeat;
+    border: 3px solid pink;
+}
+
+.searchbar-container {
+    border: 3px solid orange;
+    
+    display: grid;
+}
+
+.bell-icon {
+    background-image: url(/icons/bell-ring-outline.svg);
+    background-repeat: no-repeat;
+    width: 50%;
 }
 
 .header-top-row [type="text"] {
-    background-color: var(--background-grey);
+    background-color: var(--grey);
     height: 3em;
     border-radius: 20px;
 }
 
 .header-bottom-row {
     /* border: 3px solid pink; */
+    
     display: grid;
     grid-template-columns: 1fr 4.5fr 1fr 1fr 1fr;
     height: 73%;
@@ -91,18 +116,19 @@
 }
 
 .user-icon-large {
+    /* border: 2px solid pink; */
+    
     background-image: url(/icons/burger-profile-pic-100px.png);
     background-size: 90px;
     background-repeat: no-repeat;
     height: 100%;
     width: 90%;
     box-sizing: border-box;
-    /* border: 2px solid pink; */
     background-position: center;
 }
 
 .header-bottom-row button {
-    background-color: var(--navbar-blue);
+    background-color: var(--blue);
     color: var(--white);
     border-radius: 30px;
     width: 10em;
@@ -118,5 +144,5 @@
 .main-content {
     grid-area: main;
 
-    background-color: var(--background-grey);
+    background-color: var(--grey);
 }
