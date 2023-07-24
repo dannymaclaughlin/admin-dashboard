@@ -109,6 +109,7 @@
     background-image: url(/icons/magnify.svg);
     background-repeat: no-repeat;
     background-size: 2em;
+    background-position: center;
 }
 
 .searchbar-container [type="text"] {
