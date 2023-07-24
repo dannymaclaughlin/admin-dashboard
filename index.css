@@ -157,9 +157,14 @@
     /* border: 3px solid pink; */
     
     display: grid;
-    grid-template-columns: .7fr 3.5fr 1fr 2.5fr;
+    grid-template-columns: .7fr 3.5fr .5fr 2.8fr;
     height: 73%;
 }
+
+/* temp */
+/* .header-bottom-row > * {
+    border: 3px solid red;
+} */
 
 .user-icon-large {
     /* border: 2px solid pink; */
@@ -194,8 +199,9 @@
     background-color: var(--blue);
     color: var(--white);
     border-radius: 30px;
-    width: 10em;
-    height: 4em;
+    width: 5.8em;
+    height: 2.2em;
+    font-size: 1.5em;
 }
 
 .button-group {
