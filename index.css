@@ -49,8 +49,32 @@
 }
 
 .navigation-button:hover {
-    transform: translate(25px);
+    /* transform: translate(25px); */
     color: var(--yellow);
+}
+
+.home-button {
+   /* border: 3px solid pink; */ 
+    
+    display: grid;
+    grid-template-columns: .6fr 1fr;
+    align-items: center;
+}
+
+.home-button:hover {
+    fill: var(--yellow);
+    color: var(--yellow);
+}
+
+.home-button-icon svg {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1.2em;
+    fill: var(--white);
+}
+
+.home-button svg:hover {
+    fill: var(--yellow);
 }
 
 /* HEADER TOP ROW START */
@@ -122,8 +146,14 @@
 
 .searchbar-container [type="text"] {
     background-color: var(--grey);
-    height: 4.3em;
+    height: 2em;
     border-radius: 30px;
+    font-size: 1.5em;
+    text-indent: 10px;
+}
+
+.searchbar-container [type="text"]:focus {
+    outline: none;
 }
 
 .notify-group {
