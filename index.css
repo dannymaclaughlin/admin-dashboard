@@ -15,7 +15,7 @@
 
 .main-container {
     /* added a temporary border to visualize container */
-    border: 5px solid red;
+    /* border: 5px solid red; */
     
     display: grid;
     grid-template-columns: 20% 80%;
@@ -46,6 +46,11 @@
     color: white;
     font-size: 2em;
     font-weight: bold;
+}
+
+.navigation-button:hover {
+    transform: translate(25px);
+    color: var(--yellow);
 }
 
 /* HEADER TOP ROW START */
@@ -214,6 +219,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.button-group button {
+    font-weight: bold;
+}
+
+.button-group button:hover {
+    color: var(--yellow);
 }
 
 .greeting-section {
