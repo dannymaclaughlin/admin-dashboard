@@ -12,27 +12,70 @@
     <div class="main-container">
         <div class="navbar">
             <button>Dashboard</button>
-
-            <!-- <div class="home-button">
-                <div class=></div>
-
-            </div> -->
             
-            <button class="home-button navigation-button">
-                <div class="home-button-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg>
-                </div>
-                Home
-            </button>
-            <button class="navigation-button">Profile</button>
-            <button class="navigation-button">Messages</button>
-            <button class="navigation-button">History</button>
-            <button class="navigation-button">Tasks</button>
-            <button class="navigation-button">Communities</button>
-            <div></div>
-            <button class="navigation-button">Settings</button>
-            <button class="navigation-button">Support</button>
-            <button class="navigation-button">Privacy</button>
+            <div class="button-group">
+                <!-- HOME BUTTON -->
+                <button class="home-button navigation-button">
+                    <div class="icon home-button-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg>
+                    </div>
+                    <div class="button-text home-button-text">
+                        Home   
+                    </div>
+                </button>
+
+                <!-- PROFILE BUTTON -->
+                <button class="profile-button navigation-button">
+                    <div class="icon profile-button-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22,3H2C0.91,3.04 0.04,3.91 0,5V19C0.04,20.09 0.91,20.96 2,21H22C23.09,20.96 23.96,20.09 24,19V5C23.96,3.91 23.09,3.04 22,3M22,19H2V5H22V19M14,17V15.75C14,14.09 10.66,13.25 9,13.25C7.34,13.25 4,14.09 4,15.75V17H14M9,7A2.5,2.5 0 0,0 6.5,9.5A2.5,2.5 0 0,0 9,12A2.5,2.5 0 0,0 11.5,9.5A2.5,2.5 0 0,0 9,7M14,7V8H20V7H14M14,9V10H20V9H14M14,11V12H18V11H14" /></svg>
+                    </div>
+                    <div class="button-text profile-button-text">
+                        Profile    
+                    </div>
+                </button>
+
+                <!-- MESSAGES BUTTON -->
+                <button class="messages-button navigation-button">
+                    <div class="icon messages-button-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22,4C22,2.89 21.1,2 20,2H4A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H18L22,22V4Z" /></svg>
+                    </div>
+                    <div class="button-text messages-button-text">
+                        Messages    
+                    </div>
+                </button>
+
+                <!-- HISTORY BUTTON -->
+                <button class="history-button navigation-button">
+                    <div class="icon history-button-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" /></svg>
+                    </div>
+                    <div class="button-text history-button-text">
+                        History    
+                    </div>
+                </button>
+
+                
+                <button class="tasks-button navigation-button">
+                    <div class="icon tasks-button-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15,7H20.5L15,1.5V7M8,0H16L22,6V18A2,2 0 0,1 20,20H8C6.89,20 6,19.1 6,18V2A2,2 0 0,1 8,0M4,4V22H20V24H4A2,2 0 0,1 2,22V4H4Z" /></svg>
+                    </div>
+                    <div class="button-text tasks-button-text">
+                        Tasks  
+                    </div>
+                    
+                </button>
+
+                <button class="navigation-button">Communities</button>
+
+                <div></div>
+
+                <button class="navigation-button">Settings</button>
+
+                <button class="navigation-button">Support</button>
+
+                <button class="navigation-button">Privacy</button>    
+            </div>
+            
         </div>
 
         <div class="header">
@@ -64,7 +107,7 @@
 
                     <div class="spacer"></div>
 
-                    <div class="button-group">
+                    <div class="header-button-group">
                         <button class="new-post">New</button>
                         <button class="upload-post">Upload</button>
                         <button class="share-post">Share</button> 
