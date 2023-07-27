@@ -26,6 +26,7 @@
     "navbar main main main main"
     "navbar main main main main"
     "navbar main main main main";
+    height: 100vh;
 }
 
 /* NAVBAR SECTION START */
@@ -292,4 +293,19 @@
     grid-area: main;
 
     background-color: var(--grey);
+}
+
+.main-content-container {
+    border: 3px solid red;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+.your-projects-container {
+    border: 3px solid pink;
+}
+
+.announcements-container {
+    border: 3px solid teal;
 }
