@@ -304,6 +304,18 @@
 
 .your-projects-container {
     border: 3px solid pink;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .3fr 2fr 2fr 2fr;
+}
+
+.your-projects-title {
+    grid-column: 1 / -1;
+}
+
+.your-projects-child {
+    border: 3px solid gold;
 }
 
 .announcements-container {
