@@ -309,7 +309,8 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: .3fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 1.5em;
 }
 
 .your-projects-title {
@@ -317,19 +318,24 @@
 }
 
 .your-projects-child {
-    border: 3px solid gold;
+    /* border: 3px solid white; */
+    border-radius: 10px;
+    background-color: var(--white);
 
     display: grid;
+    grid-template-rows: 0fr 1fr .2frfr;
+    padding: 1.5em;
 }
 
 .your-projects-child > * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .announcements-trending-container {
-    /* border: 3px solid teal; */
+    border: 3px solid teal;
 
     display: grid;
+    padding-left: 2em;
 }
 
 .announcements-container {
