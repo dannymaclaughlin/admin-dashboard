@@ -318,6 +318,12 @@
 
 .your-projects-child {
     border: 3px solid gold;
+
+    display: grid;
+}
+
+.your-projects-child > * {
+    border: 1px solid red;
 }
 
 .announcements-trending-container {
@@ -347,6 +353,7 @@
     font-weight: bold;
 }
 
-.trending-content {
-    /* border: 3px solid teal; */
+.project-title {
+    font-size: 1em;
+    font-weight: bold;
 }
