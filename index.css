@@ -300,6 +300,8 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
+    padding: 1.5em;
+    padding-top: 2em;
 }
 
 .your-projects-container {
@@ -331,16 +333,8 @@
     grid-template-rows: .1fr 1fr;
 }
 
-.announcements-title {
-    /* border: 3px solid blue; */
-}
-
-.announcements-content {
-    /* border: 3px solid green; */
-}
-
 .trending-container {
-    /* border: 3px solid purple; */
+    border: 3px solid purple;
 
     display: grid;
     grid-template-rows: .1fr 1fr;
@@ -349,6 +343,7 @@
 .section-title {
     /* border: 3px solid teal; */
 
+    font-size: 1.2em;
     font-weight: bold;
 }
 
