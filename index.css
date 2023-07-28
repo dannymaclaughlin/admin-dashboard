@@ -129,7 +129,7 @@
     /* border: 3px solid orange; */
     
     display: grid;
-    grid-template-columns: 8.5fr 1.5fr 3fr;
+    grid-template-columns: 8.5fr 1fr 3.5fr;
 
     height: fit-content;
 }
