@@ -168,7 +168,7 @@
     background-color: var(--grey);
     height: 2em;
     border-radius: 30px;
-    font-size: 1.5em;
+    font-size: 1.15em;
     text-indent: 10px;
 }
 
@@ -303,7 +303,7 @@
 }
 
 .your-projects-container {
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -340,7 +340,7 @@
 }
 
 .trending-container {
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
 
     display: grid;
     grid-template-rows: .1fr 1fr;
