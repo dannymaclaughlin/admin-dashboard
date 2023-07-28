@@ -318,6 +318,40 @@
     border: 3px solid gold;
 }
 
+.announcements-trending-container {
+    /* border: 3px solid teal; */
+
+    display: grid;
+}
+
 .announcements-container {
-    border: 3px solid teal;
+    border: 3px solid gold;
+
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+}
+
+.announcements-title {
+    /* border: 3px solid blue; */
+}
+
+.announcements-content {
+    /* border: 3px solid green; */
+}
+
+.trending-container {
+    border: 3px solid purple;
+
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+}
+
+.section-title {
+    /* border: 3px solid teal; */
+
+    font-weight: bold;
+}
+
+.trending-content {
+    /* border: 3px solid teal; */
 }
