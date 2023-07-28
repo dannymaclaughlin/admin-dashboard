@@ -15,7 +15,6 @@
 }
 
 .main-container {
-    /* added a temporary border to visualize container */
     /* border: 5px solid red; */
     
     display: grid;
@@ -55,12 +54,6 @@
 
 .button-group button {
     font-size: 1.25em;
-}
-
-.navigation-button {
-    /* border: 3px solid green; */
-
-    /* width: fit-content; */
 }
 
 .navigation-button:hover {
@@ -272,10 +265,6 @@
     width: 22em;
 }
 
-.header-button-group button {
-    /* font-weight: bold; */
-}
-
 .header-button-group button:hover {
     color: var(--yellow);
 }
@@ -299,10 +288,21 @@
 .main-content-container {
     border: 3px solid red;
     display: grid;
-    grid-template-rows: 0fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
     padding: 1.5em;
     padding-top: 2em;
+}
+
+.your-projects-section {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    border: 2px solid blue;
+}
+
+.your-projects-title {
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .your-projects-container {
@@ -312,10 +312,6 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 2fr 2fr;
     gap: 1.5em;
-}
-
-.your-projects-title {
-    grid-column: 1 / -1;
 }
 
 .your-projects-child {
@@ -332,24 +328,11 @@
     /* border: 1px solid red; */
 }
 
-.announcements-trending-container {
-    border: 3px solid teal;
-
-    display: grid;
-    padding-left: 2em;
-}
-
-.announcements-container {
-    border: 3px solid gold;
-
-    display: grid;
-    grid-template-rows: .1fr 1fr;
-}
-
 .announcements-content {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     display: grid;
+    padding: 2.5em;
 }
 
 .trending-container {
@@ -381,12 +364,38 @@
     color: var(--text-gray);
 }
 
+.project-engagement-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.announcements-trending-container {
+    border: 3px solid teal;
+
+    display: grid;
+    padding-left: 2em;
+}
+
+.announcements-container {
+    /* border: 3px solid gold; */
+
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+}
+
+.announcements-title,
+.trending-title {
+    font-weight: bold;
+}
+
+.announcements-content {
+    background-color: var(--white);
+
+    border-radius: 10px;
+}
+
 .announcements-child-title {
     font-size: 1em;
     font-weight: bold;
 }
 
-.project-engagement-buttons {
-    display: flex;
-    justify-content: flex-end;
-}
