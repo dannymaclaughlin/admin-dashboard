@@ -3,6 +3,7 @@
     --white: #FFFFFF;
     --grey: #e2e8f0;
     --yellow: #f0b42a;
+    --text-gray: #636363;
 }
 
 * {
@@ -318,7 +319,7 @@
 }
 
 .your-projects-child {
-    /* border: 3px solid white; */
+    border-left: 8px solid var(--yellow);
     border-radius: 10px;
     background-color: var(--white);
 
@@ -328,7 +329,7 @@
 }
 
 .your-projects-child > * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .announcements-trending-container {
@@ -362,7 +363,6 @@
     /* border: 3px solid teal; */
 
     font-size: 1.2em;
-    font-weight: bold;
 }
 
 .project-title {
@@ -377,6 +377,8 @@
 
 .project-body {
     /* border: 2px solid pink; */
+
+    color: var(--text-gray);
 }
 
 .announcements-child-title {
