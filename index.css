@@ -32,6 +32,8 @@
 /* NAVBAR SECTION START */
 
 .navbar-section {
+    /* border: 2px solid red; */
+    
     grid-area: navbar;
     
     background: var(--blue);
@@ -41,11 +43,14 @@
 }
 
 .navbar-section button {
-    /* border: 5px solid blue; */
+    /* border: 2px solid blue; */
     
     background: none;
     color: white;
     font-weight: bold;
+
+    display: grid;
+    grid-template-columns: .25fr 1fr;
 }
 
 .dashboard-logo {
@@ -57,7 +62,6 @@
 }
 
 .navigation-button:hover {
-    /* transform: translate(25px); */
     color: var(--yellow);
 }
 
@@ -68,19 +72,12 @@
     fill: var(--white);
 }
 
-.navbar-section button {
-    /* border: 3px solid pink; */
-    
-    display: grid;
-    grid-template-columns: .25fr 1fr;
-}
-
 .button-group {
     display: flex;
     flex-direction: column;
 }
 
-.icon {
+.navbar-button-icon {
     /* border: 3px solid red; */
 
     width: 2em;
