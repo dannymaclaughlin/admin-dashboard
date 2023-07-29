@@ -304,7 +304,7 @@
 /* MAIN CONTENT LEFT SECTION START */
 
 .main-content-left-section {
-    /* border: 2px solid blue; */
+    /* border: 3px solid red; */
     
     display: grid;
     grid-template-rows: 0fr 1fr;
@@ -316,7 +316,7 @@
 }
 
 .your-projects-container {
-    /* border: 3px solid pink; */
+    /* border: 3px solid red; */
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -325,6 +325,8 @@
 }
 
 .your-projects-child {
+    /* border: 3px solid red; */
+    
     border-left: 8px solid var(--yellow);
     border-radius: 10px;
     background-color: var(--white);
@@ -334,32 +336,14 @@
     padding: 1.5em;
 }
 
-.your-projects-child > * {
-    /* border: 1px solid red; */
-}
-
-.announcements-content {
-    /* border: 2px solid red; */
-
-    display: grid;
-    padding: 2.5em;
-}
-
-.trending-container {
-    border: 3px solid purple;
-
-    display: grid;
-    grid-template-rows: .1fr 1fr;
-}
-
 .section-title {
-    /* border: 3px solid teal; */
+    /* border: 3px solid red; */
 
     font-size: 1.2em;
 }
 
 .project-title {
-    /* border: 2px solid pink; */
+    /* border: 3px solid red; */
     
     font-size: 1em;
     font-weight: bold;
@@ -369,18 +353,25 @@
 }
 
 .project-body {
-    /* border: 2px solid pink; */
+    /* border: 3px solid red; */
 
     color: var(--text-gray);
 }
 
 .project-engagement-buttons {
+    /* border: 3px solid red; */
+    
     display: flex;
     justify-content: flex-end;
 }
 
-/* MAIN CONTENT RIGHT SECTION */
+.your-projects-child > * {
+    /* border: 3px solid red; */
+}
 
+/* MAIN CONTENT RIGHT SECTION START */
+
+/* ANNOUNCEMENTS SECTION */
 .announcements-trending-container {
     border: 3px solid teal;
 
@@ -389,17 +380,37 @@
     padding-left: 2em;
 }
 
+.announcements-title,
+.trending-title {
+    border: 3px solid gold;
+    
+    font-weight: bold;
+}
+
 .announcements-container {
-    /* border: 3px solid gold; */
+    border: 3px solid pink;
 
     display: grid;
     grid-template-rows: .1fr 1fr;
 }
 
-.announcements-title,
-.trending-title {
-    font-weight: bold;
+.announcements-content {
+    border: 3px solid red;
+
+    display: grid;
+    padding: 2.5em;
 }
+
+/* TRENDING SECTION */
+
+.trending-container {
+    border: 3px solid purple;
+
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+}
+
+
 
 .announcements-content {
     background-color: var(--white);
