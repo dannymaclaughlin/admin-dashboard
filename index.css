@@ -31,7 +31,7 @@
 
 /* NAVBAR SECTION START */
 
-.navbar {
+.navbar-section {
     grid-area: navbar;
     
     background: var(--blue);
@@ -40,7 +40,7 @@
     grid-gap: 0.9em;
 }
 
-.navbar button {
+.navbar-section button {
     /* border: 5px solid blue; */
     
     background: none;
@@ -61,14 +61,14 @@
     color: var(--yellow);
 }
 
-.navbar svg {
+.navbar-section svg {
     background-repeat: no-repeat;
     background-position: center;
     width: 1.2em;
     fill: var(--white);
 }
 
-.navbar button {
+.navbar-section button {
     /* border: 3px solid pink; */
     
     display: grid;
