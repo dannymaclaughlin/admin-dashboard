@@ -57,6 +57,11 @@
     font-size: 2.5em;
 }
 
+.navbar-button-group {
+    display: flex;
+    flex-direction: column;
+}
+
 .navbar-button-group button {
     font-size: 1.25em;
 }
@@ -72,18 +77,13 @@
     fill: var(--white);
 }
 
-.navbar-button-group {
-    display: flex;
-    flex-direction: column;
-}
-
 .navbar-button-icon {
     /* border: 3px solid red; */
 
-    width: 2em;
+    width: 2em
 }
 
-.button-text {
+.navbar-button-text {
     /* border: 3px solid pink; */
     display: flex;
     justify-content: flex-start;
