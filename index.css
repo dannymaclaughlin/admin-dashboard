@@ -376,7 +376,7 @@
     border: 3px solid teal;
 
     display: grid;
-    grid-template-rows: 0fr 1fr;
+    grid-template-rows: 0fr 1fr 0fr 1fr;
     padding-left: 2em;
 }
 
