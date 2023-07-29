@@ -91,7 +91,7 @@
 }
 
 /* NAVBAR SECTION END */
-/* ///////////////////////////////////////////////////////////// */
+
 /* HEADER SECTION START */
 
 .header-section {
@@ -122,7 +122,7 @@
     display: grid;
     grid-template-columns: 8.5fr 1fr 3.5fr;
 
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 .header-top-row > * {
