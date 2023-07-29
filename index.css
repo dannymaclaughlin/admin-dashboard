@@ -398,7 +398,15 @@
     border: 3px solid red;
 
     display: grid;
+    
+    border-radius: 10px;
     padding: 2.5em;
+    background-color: var(--white);
+}
+
+.announcements-child-title {
+    font-size: 1em;
+    font-weight: bold;
 }
 
 /* TRENDING SECTION */
@@ -409,17 +417,3 @@
     display: grid;
     grid-template-rows: .1fr 1fr;
 }
-
-
-
-.announcements-content {
-    background-color: var(--white);
-
-    border-radius: 10px;
-}
-
-.announcements-child-title {
-    font-size: 1em;
-    font-weight: bold;
-}
-
