@@ -95,7 +95,7 @@
 /* HEADER SECTION START */
 
 .header-section {
-    /* border: 3px solid blue; */
+    border: 3px solid red;
 
     grid-area: header;
     background-color: var(--white);
@@ -105,7 +105,7 @@
 }
 
 .header-children {
-    /* border: 3px solid pink; */
+    border: 3px solid red;
     
     width: 100%;
     grid-template-rows: 1fr 2fr;
@@ -117,7 +117,7 @@
 /* HEADER TOP ROW START */
 
 .header-top-row {
-    /* border: 3px solid orange; */
+    border: 3px solid red;
     
     display: grid;
     grid-template-columns: 8.5fr 1fr 3.5fr;
@@ -126,15 +126,15 @@
 }
 
 .header-top-row > * {
-    /* border: 2px solid green; */
+    border: 3px solid red;
 
     height: 4em;
     align-content: center;
     margin-top: 1em;
 }
 
-#search-group {
-    /* border: 3px solid blue; */
+.header-searchbar-group {
+    border: 3px solid blue;
     
     display: grid;
     grid-template-columns: 7% 85%;
