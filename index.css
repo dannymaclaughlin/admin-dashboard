@@ -285,14 +285,14 @@
 /* MAIN CONTENT SECTION START */
 
 .main-content-section {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     
     grid-area: main;
     background-color: var(--grey);
 }
 
 .main-content-container {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     
     display: grid;
     grid-template-rows: 1fr;
@@ -301,10 +301,15 @@
     padding-top: 2em;
 }
 
+.main-content-left-section,
+.main-content-right-section {
+    /* border: 3px solid teal; */
+}
+
 /* MAIN CONTENT LEFT SECTION START */
 
 .main-content-left-section {
-    border: 3px solid teal;
+    /* border: 3px solid teal; */
     
     display: grid;
     grid-template-rows: 0fr 1fr;
@@ -334,7 +339,7 @@
     background-color: var(--white);
 
     display: grid;
-    grid-template-rows: 0fr 1fr .2fr;
+    grid-template-rows: 0fr 1fr .3fr;
     padding: 1.5em;
 }
 
@@ -360,11 +365,47 @@
     color: var(--text-gray);
 }
 
-.project-engagement-buttons {
-    /* border: 3px solid red; */
+.project-engagement-buttons-section {
+    /* border: 3px solid blue; */
     
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.project-engagement-buttons {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 10em;
+}
+
+.star-icon {
+    /* border: 3px solid teal; */
+    
+    background-image: url(/icons/star.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25%;
+}
+
+.eye-icon {
+    /* border: 3px solid teal; */
+    background-image: url(/icons/eye.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25%;
+}
+
+.share-icon {
+    /* border: 3px solid teal; */
+    background-image: url(/icons/share.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25%;
 }
 
 .your-projects-child > * {
@@ -373,7 +414,7 @@
 
 /* MAIN CONTENT RIGHT SECTION START */
 .main-content-right-section {
-    border: 3px solid teal;
+    /* border: 3px solid teal; */
 
     display: grid;
     grid-template-rows: 0fr 1fr .1fr 0fr 1fr;
@@ -411,18 +452,21 @@
     /* border: 3px solid blue; */
 
     display: grid;
+    gap: 1em;
 
-    padding: 2.5em;
+    padding: 2em;
     background-color: var(--white);
 }
 
 .announcements-child {
-    display: grid;   
+    display: grid;
 }
 
 .announcements-middle-child {
-    border-top: 2px solid gray;
-    border-bottom: 2px solid gray;
+    border-top: 1px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .announcements-child-title {
@@ -433,7 +477,7 @@
 .announcements-child-body {
     /* border: 3px solid red; */
     
-    font-size: .9em;
+    font-size: 0.9em;
     color: var(--text-gray);
 }
 
@@ -448,18 +492,65 @@
     grid-template-rows: repeat(4, 1fr);
     background-color: var(--white);
     height: 100%;
+    padding: 1.5em;
 }
 
 .trending-child {
     /* border: 3px solid lightpink; */
     
     display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.icon {
+    /* border: 3px solid teal; */
+}
+
+.trending-name-project {
+    /* border: 3px solid lightcoral; */
+
+    display: grid;
+    padding-left: 1em;
+    font-size: 1.1em;
+}
+
+.trending-name-project > * {
+    /* border: 3px solid lightblue; */
+}
+
+.tegan-icon {
+    background-image: url(/icons/tegans-icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.morgan-icon {
+    background-image: url(/icons/morgan-icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.kendall-icon {
+    background-image: url(/icons/kendall-icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.alex-icon {
+    background-image: url(/icons/alex-icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.trending-user-handle {
+    display: flex;
+    align-items: flex-end;
 }
 
 .trending-user-project {
-    
-}
-
-.right-section-body {
-    /* border: 3px solid tomato; */
+    color: var(--text-gray);
 }
