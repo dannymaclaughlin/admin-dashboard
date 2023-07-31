@@ -167,7 +167,7 @@
 .search-icon {
     /* border: 3px solid red; */
     
-    background-image: url(/icons/magnify.svg);
+    background-image: url(icons/magnify.svg);
     background-repeat: no-repeat;
     background-size: 2em;
     background-position: center;
@@ -198,7 +198,7 @@
 .bell-icon {
     /* border: 3px solid red; */
     
-    background-image: url(/icons/bell-icon.svg);
+    background-image: url(icons/bell-icon.svg);
     background-repeat: no-repeat;
     background-size: 2em;
     background-position: center;
@@ -207,7 +207,7 @@
 .user-icon-small {
     /* border: 3px solid red; */
     
-    background-image: url(/icons/burger-profile-pic-100px.png);
+    background-image: url(icons/burger-profile-pic-100px.png);
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center;
@@ -238,7 +238,7 @@
 .user-icon-large {
     /* border: 3px solid red; */
     
-    background-image: url(/icons/burger-profile-pic-100px.png);
+    background-image: url(icons/burger-profile-pic-100px.png);
     background-size: 70px;
     background-repeat: no-repeat;
     height: 100%;
