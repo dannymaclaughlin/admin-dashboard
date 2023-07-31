@@ -39,7 +39,7 @@
     display: grid;
     grid-template-rows: .25fr 1fr 1fr;
     grid-gap: 0.9em;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .navbar-section button {
@@ -285,14 +285,14 @@
 /* MAIN CONTENT SECTION START */
 
 .main-content-section {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     
     grid-area: main;
     background-color: var(--grey);
 }
 
 .main-content-container {
-    border: 3px solid red;
+    border: 3px solid blue;
     
     display: grid;
     grid-template-rows: 1fr;
@@ -304,10 +304,11 @@
 /* MAIN CONTENT LEFT SECTION START */
 
 .main-content-left-section {
-    /* border: 3px solid red; */
+    border: 3px solid red;
     
     display: grid;
     grid-template-rows: 0fr 1fr;
+    height: 70vh;
 }
 
 .your-projects-title {
@@ -316,7 +317,7 @@
 }
 
 .your-projects-container {
-    /* border: 3px solid red; */
+    border: 3px solid red;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -325,7 +326,7 @@
 }
 
 .your-projects-child {
-    /* border: 3px solid red; */
+    border: 3px solid red;
     
     border-left: 8px solid var(--yellow);
     border-radius: 10px;
@@ -382,7 +383,7 @@
 
 .announcements-title,
 .trending-title {
-    border: 3px solid black;
+    border: 3px solid plum;
     
     font-weight: bold;
     height: fit-content;
@@ -423,5 +424,17 @@
     border: 3px solid purple;
 
     display: grid;
-    grid-template-rows: .1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.trending-content {
+    display: grid;
+}
+
+.trending-child {
+    display: grid;
+}
+
+.trending-user-project {
+    
 }
